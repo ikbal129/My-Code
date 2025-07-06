@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  </head>
+  <body>
+    <div>
+      <img src="off.png" alt="" id="lampu1" />
+      <input type="checkbox" name="cek" id="cek1" onchange="saklar(1)"/>
+      <button type="button" onclick="saklar('on', 1)">NYALAKAN</button>
+      <button type="button" onclick="saklar('off', 1)">MATIKAN</button>
+      <br />
+      <img src="off.png" alt="" id="lampu2" />
+      <input type="checkbox" name="cek" id="cek2" onchange="saklar(2)" />
+      <button type="button" onclick="saklar('on', 2)">NYALAKAN</button>
+      <button type="button" onclick="saklar('off', 2)">MATIKAN</button>
+      <br>
+      <img src="off.png" alt="" id="lampu3" />
+      <input type="checkbox" name="cek" id="cek3" onchange="saklar(3)" />
+      <button type="button" onclick="saklar('on', 3)">NYALAKAN</button>
+      <button type="button" onclick="saklar('off', 3)">MATIKAN</button>
+    </div>
+    
+    <script type="text/javascript" charset="utf-8" src="saklar.js">
+      
+    </script>
+  </body>
+</html>

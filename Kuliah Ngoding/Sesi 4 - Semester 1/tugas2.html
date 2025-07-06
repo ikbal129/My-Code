@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAMPU KAMAR</title>
+    <link rel="stylesheet" href="tugas2.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <div class="container">
+      
+      <!-- Ruang Keluarga Start -->
+      <div class="ruang-k">
+        <h1>Ruang Keluarga</h1>
+        
+        <img src="off.png" alt="" id="r-k1" />
+        <input type="checkbox" name="" id="lmp-rk1" onchange="saklar()"/>
+        <label for="lmp-rk1">Lampu 1</label>
+        <img src="off.png" alt="" id="r-k2" />
+        <input type="checkbox" name="" id="lmp-rk2" onchange="saklar()"/>
+        <label for="lmp-rk2">Lampu 2</label>
+        <img src="off.png" alt="" id="r-k3" />
+        <input type="checkbox" name="" id="lmp-rk3" onchange="
+        saklar()"/>
+        <label for="lmp-rk3">Lampu 3</label>
+        <br>
+        <br>
+        <input type="checkbox" name="" id="rk-all" onchange="saklarAll()">
+        <label for="rk-all">Lampu Ruang Keluarga</label>
+      </div>
+      <!-- Ruang Keluarga End -->
+
+      <!-- Ruang Makan Start -->  
+      <div class="ruang-m">
+        <h1>Ruang Makan</h1>
+        <img src="off.png" alt="" id="r-m">
+        <br>
+        <input type="checkbox" name="lmp" id="lmp-rm" onchange="saklarAll()"/>
+        <label for="lmp-rm">Lampu Ruang Makan</label>
+      </div>
+      <!-- Ruang Makan End -->
+      
+      <!-- Ruang Tidur Start -->
+      <div class="ruang-t">
+        <h1>Ruang Tidur</h1>
+        <img src="off.png" alt="" id="r-t1">
+        <input type="checkbox" name="" id="lmp-rt1" onchange="saklar()" />
+        <label for="lmp-rt1">Lampu 1</label>
+        <img src="off.png" alt="" id="r-t2">
+        <input type="checkbox" name="" id="lmp-rt2" onchange="saklar()"/>
+        <label for="lmp-rt2">Lampu 2</label>
+        <br><br>
+        <input type="checkbox" id="rtAll" onchange="saklarAll()">
+        <label for="rtAll">Lampu Ruang Tidur</label>
+      </div>
+      <!-- Ruang Tidur End -->
+      
+      <!-- Ruang Tamu Start -->
+      <div class="ruang-ta">
+        <img src="off.png" alt="" id="r-ta1" />
+        <input type="checkbox" name="" id="lmp-rta1" onchange="saklar()"/>
+        <label for="lmp-rta1">Lampu 1</label>
+        <img src="off.png" alt="" id="r-ta2" />
+        <input type="checkbox" name="" id="lmp-rta2" onchange="saklar()"/>
+        <label for="lmp-rta2">Lampu 2</label>
+        <img src="off.png" alt="" id="r-ta3" />
+        <input type="checkbox" name="" id="lmp-rta3" onchange="
+        saklar()"/>
+        <label for="lmp-rta3">Lampu 3</label>
+        <img src="off.png" alt="" id="r-ta4">
+        <input type="checkbox" name="" id="lmp-rta4" onchange="saklar()"/>
+        <label for="lmp-rta4">Lampu 4</label>
+        <br>
+        <br>
+        <input type="checkbox" name="" id="rta-all" onchange="saklarAll()">
+        <label for="rta-all">Lampu Ruang Tamu</label>
+      </div>
+      <!-- Ruang Tamu End  -->
+    </div>
+    
+    <script src="tugas2.js" type="text/javascript" charset="utf-8">
+      
+    </script>
+  </body>
+</html>

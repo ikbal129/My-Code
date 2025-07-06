@@ -1,0 +1,39 @@
+body {
+  background-color: #333;
+  font-family: Verdana;
+}
+
+.container {
+  display: flex;
+}
+
+.container .ruang-k {
+  width: 600px;
+  border: 3px solid white;
+  color: white;
+  text-align: center;
+}
+
+.container .ruang-m {
+  width: 250px;
+  border: 3px solid white;
+  color: white;
+  margin-left: 40px;
+  padding: 10px;
+}
+
+.container .ruang-t {
+  border: 3px solid white;
+  color : white;
+  text-align: center;
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.container .ruang-ta {
+  border: 3px solid white;
+  color: white;
+  padding: 10px;
+  margin-left: 40px;
+  text-align: center;
+}
